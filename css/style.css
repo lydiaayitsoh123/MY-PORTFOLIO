@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Warang+Citi&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sigmar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding :30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+
+
+
+
+.logo{
+    font-size: 2em;
+    color: dimgrey;
+    cursor: default;
+}
+.logo span{
+color:rgb(235, 72, 221);
+
+}
+.navigation{
+    margin-left: -300px;
+}
+
+
+.navigation a{
+    font-size: 1.1em;
+    color: chocolate;
+    text-decoration:none;
+    margin-right: 40px; 
+    font-weight: 500;
+    transition: 3s;
+}
+.navigation a:hover{
+    color: blueviolet;
+}
+.home {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(190, 221, 221);
+    background-position:center;
+    display: flex;
+    align-items:center;
+    padding: 30px 100px;
+
+}
+.content{
+    max-width: 500px;
+    color: cyan;
+}
+.content p{
+    padding: 10px 0 40px 0;
+}
+.content h2{
+    font-size: 3em;
+    
+}
+.social-icons{
+    position: absolute;
+    bottom: 50px;
+}
+.social-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: rgb(96, 68, 104);
+    border-radius:50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff ;
+    transition: .3s;
+    
+
+} 
+
+.social-icons a :hover{
+    transform: translate(-5px);
+}
+.social-icons a i {
+    color: #fff;
+}
+img{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display image:right ;
+    max-width:600px;
+}
+.text{
+    max-width: 70%;
+    padding: 5px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
